@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Professional Car Detailing | Cleaner. Shinier. Better.</title>
+<meta name="description" content="7 years of professional, courteous and affordable car cleaning and detailing. Message us on WhatsApp for a quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --base:#0a1424; --panel:#101d33; --line:#22344f;
+  --blue:#2f8cff; --blue-dark:#1b6fe0; --text:#f2f6fb; --muted:#a3b3ca;
+  --head:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--base);color:var(--text);font:400 18px/1.6 var(--body)}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--head);font-weight:700;line-height:1.02;letter-spacing:.01em}
+h2{font-size:clamp(2rem,5vw,3rem);margin-bottom:28px}
+.btn{display:inline-block;padding:14px 26px;border-radius:6px;font-weight:500;text-decoration:none;background:var(--blue);color:#04101f;border:2px solid var(--blue)}
+.btn:hover{background:var(--blue-dark);border-color:var(--blue-dark);color:#fff}
+.btn.ghost{background:transparent;color:var(--text);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--blue);color:var(--text);background:transparent}
+
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
+.brand{font-family:var(--head);font-size:1.5rem;font-weight:700;text-decoration:none}
+.brand span{color:var(--blue)}
+header .btn{padding:9px 18px;font-size:.95rem}
+
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding-top:72px;padding-bottom:72px}
+.hero h1{font-size:clamp(3rem,8.5vw,5.8rem);margin-bottom:20px}
+.hero p{color:var(--muted);max-width:30em;margin-bottom:30px;font-size:1.15rem}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.duo{display:grid;gap:14px}
+.duo img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+.duo img:first-child{margin-left:12%}
+.duo img:last-child{margin-right:12%}
+
+.proof{background:var(--panel);border-block:1px solid var(--line)}
+.proof .wrap{display:flex;flex-wrap:wrap;gap:14px 48px;padding-top:26px;padding-bottom:26px}
+.proof strong{font-family:var(--head);font-size:2rem;color:var(--blue);margin-right:10px}
+
+section.block{padding:76px 0}
+.services{list-style:none;padding:0;border-top:1px solid var(--line)}
+.services li{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.6fr);gap:12px 32px;padding:24px 0;border-bottom:1px solid var(--line)}
+.services h3{font-size:1.7rem}
+.services p{color:var(--muted)}
+
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+
+.areas{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0}
+.areas li{padding:9px 18px;border:1px solid var(--line);border-radius:6px;font-weight:500}
+.contact{background:var(--panel);border-top:1px solid var(--line)}
+.contact p{color:var(--muted);max-width:32em;margin-bottom:26px}
+.contact .actions{display:flex;flex-wrap:wrap;gap:12px}
+footer{padding:26px 0;color:var(--muted);font-size:.95rem;border-top:1px solid var(--line)}
+
+@media (max-width:760px){
+  .hero .wrap{grid-template-columns:1fr;gap:36px;padding-top:44px;padding-bottom:48px}
+  .duo{grid-template-columns:1fr 1fr}
+  .duo img:first-child,.duo img:last-child{margin:0}
+  .services li{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr}
+  section.block{padding:56px 0}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">Professional <span>Car Detailing</span></a>
+    <!-- Replace PHONE_NUMBER (3 places in this file) with your WhatsApp number: country code first, no + sign, no spaces. Example: 15551234567 -->
+    <a class="btn" href="https://wa.me/PHONE_NUMBER">WhatsApp us</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Cleaner.<br>Shinier.<br>Better.</h1>
+        <p>Professional, courteous and affordable car cleaning, backed by 7 years of experience. Send us a message and get a quote today.</p>
+        <div class="actions">
+          <a class="btn" href="https://wa.me/PHONE_NUMBER">Get a quote on WhatsApp</a>
+          <a class="btn ghost" href="#work">See our work</a>
+        </div>
+      </div>
+      <div class="duo">
+        <img src="images/3.jpg" alt="BMW coupe covered in white foam during a hand wash">
+        <img src="images/6.jpg" alt="Red Chevrolet Camaro with a freshly detailed finish">
+      </div>
+    </div>
+  </section>
+
+  <div class="proof">
+    <div class="wrap">
+      <div><strong>7 years</strong>of experience</div>
+      <div><strong>92%</strong>recommend us on Facebook</div>
+      <div><strong>19</strong>customer reviews</div>
+    </div>
+  </div>
+
+  <section class="block" id="services">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <ul class="services">
+        <li><h3>Exterior wash and foam</h3><p>A careful hand wash with foam, so dirt comes off without scratching your paint.</p></li>
+        <li><h3>Interior deep clean</h3><p>Seats, carpets, dashboard and door panels cleaned until the inside feels new again.</p></li>
+        <li><h3>Polish and shine</h3><p>Removes dullness and brings back a deep, glossy finish.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="work" style="padding-top:0">
+    <div class="wrap">
+      <h2>Our work</h2>
+      <div class="gallery">
+        <img src="images/1.jpg" alt="Silver Toyota sedan, clean and polished" loading="lazy">
+        <img src="images/2.jpg" alt="Black Toyota SUV after detailing" loading="lazy">
+        <img src="images/3.jpg" alt="BMW coupe covered in white foam" loading="lazy">
+        <img src="images/4.jpg" alt="Clean black leather rear seats in a blue truck" loading="lazy">
+        <img src="images/5.jpg" alt="Clean BMW interior with brown leather seats" loading="lazy">
+        <img src="images/6.jpg" alt="Red Chevrolet Camaro with black hood" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="areas" style="padding-top:0">
+    <div class="wrap">
+      <h2>Where we work</h2>
+      <ul class="areas">
+        <li>Tennessee</li>
+        <li>Florida</li>
+        <li>Maryland</li>
+        <li>Virginia</li>
+        <li>Utah</li>
+        <li>Nevada</li>
+        <li>New Jersey</li>
+        <li>New York</li>
+        <li>Texas, including Dallas</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block contact" id="contact">
+    <div class="wrap">
+      <h2>Book your detail</h2>
+      <p>Tell us your car and what you need. We will reply with a price and a time that suits you.</p>
+      <div class="actions">
+        <a class="btn" href="https://wa.me/PHONE_NUMBER">Message on WhatsApp</a>
+        <a class="btn ghost" href="mailto:professionaldetailing462@gmail.com">Email us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="y">2026</span> Professional Car Detailing</div>
+</footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
